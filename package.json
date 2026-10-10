@@ -1,0 +1,14 @@
+{
+  "name": "pi-copilot-billing-aware-compaction",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily-refreshed GitHub Copilot long-context billing tiers with in-run Pi auto-compaction",
+  "keywords": ["pi-package"],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "pi": {
+    "extensions": ["./extensions/copilot-billing-aware-compaction.js"]
+  }
+}
